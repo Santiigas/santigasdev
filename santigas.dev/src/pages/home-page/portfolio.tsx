@@ -4,7 +4,7 @@ import Logosantigas from '../../images/logo.png'
 function portfolio() {
 
     return (
-        <div>
+        <div className='body'>
             <section className='general-presentation'>
             <div className='presentation'>
                  <img className='logoSantigas' src={Logosantigas} alt="" />
@@ -20,7 +20,18 @@ function portfolio() {
             </div>
             </section>
             <section className='about-me'>
+                <div className='who-am-i'>
+                    <div className='card-about-me'>
+                        <div className='card-about-me-1'>
+                            <h2 className='tilte-about-me'>About me</h2>
+                            
+                            
+                        </div>
+                        <div className='card-about-me-2'>
 
+                        </div>
+                    </div>
+                </div>
             </section>
             <section className='professional-experiences'>
 
