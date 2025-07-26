@@ -21,6 +21,10 @@
 
 /*general-presentation ------------------------------------*/
 
+.general-presentation{
+    padding-top: 130px;
+}
+
 .presentation{
     display: flex;
     flex-direction: column;
@@ -50,12 +54,11 @@
     width: 700px;
     height: 50px;
     background-color: #122D26;
-    border-radius: 16px;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
     gap: 60px;
     font-size: 19px;
     font-weight: 800;
@@ -65,7 +68,7 @@
     list-style-type: none;
 }
 
-/*general-presentation ------------------------------------*/
+/*about-me ------------------------------------*/
 
 .about-me{
     padding-top: 40px;
@@ -76,7 +79,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 815px;
+    width: 1010px;
     height: 365px;
     background-color: transparent;
     border: 3px solid #30a384;
@@ -88,7 +91,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 1000px;
     height: 350px;
 }
 
@@ -100,8 +103,69 @@
 }
 
 .card-about-me-2{
-    width: 300px;
+    width: 500px;
     height: 350px;
     border-radius: 0px 20px 20px 0px;
     background-color: rgb(160, 123, 71);
 }
+
+
+/*professional-experiences ------------------------------------*/
+
+.professional-experiences{
+    padding-top: 100px;
+}
+
+.experiences_general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.experiences{
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(192, 146, 100);
+}
+
+/*education ------------------------------------*/
+
+.courses-and-education{
+    padding-top: 100px;
+}
+
+.educations-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.educations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 130px;
+}
+
+.institution{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(107, 92, 76);
+}
+
+.description-institution{
+    width: 670px;
+    height: 130px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(182, 109, 30);
+}
+
+/*skills ------------------------------------*/

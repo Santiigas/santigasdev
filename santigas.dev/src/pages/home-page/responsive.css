@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Dispositivos extra pequenos (celulares em modo retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+  /* Estilos aqui */
+
+
+.logoSantigas{
+    width: 200px;
+}
+
+.main-title{
+    font-size: 25px;
+}
+
+.secondary-title{
+    font-size: 14px;
+}
+
+
+.navbar{
+    width: 700px;
+    height: 50px;
+    background-color: #122D26;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    gap: 60px;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.navigation{
+    list-style-type: none;
+}
+
+/*about-me ------------------------------------*/
+
+
+.who-am-i{
+    flex-direction: row;
+    width: 305px;
+    height: 604px;
+}
+
+.card-about-me{
+    flex-direction: column;
+    width: 300px;
+    height: 590px;
+}
+
+.card-about-me-1{
+    width: 295px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-about-me-2{
+    width: 295px;
+    height: 295px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+/*professional-experiences ------------------------------------*/
+
+.experiences_general{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.experiences{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(192, 146, 100);
+}
+
+/*education ------------------------------------*/
+
+
+.educations-general{
+    gap: 20px;
+}
+
+.educations{
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+}
+
+.institution{
+    width: 300px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.description-institution{
+    width: 300px;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+}
+
+/* Dispositivos pequenos (celulares em modo paisagem, de 576px até 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.general-presentation{
+    padding-top: 10px;
+}
+
+.logoSantigas{
+    width: 170px;
+}
+
+.main-title{
+    padding-top: 5px;
+    font-size: 26px;
+}
+
+.secondary-title{
+    padding-top: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+.navbar{
+    width: 700px;
+    height: 50px;
+    background-color: #122D26;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    gap: 60px;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.navigation{
+    list-style-type: none;
+}
+
+/*about-me ------------------------------------*/
+
+.about-me{
+    padding-top: 40px;
+}
+
+.who-am-i{
+    width: 690px;
+    height: 310px;
+    background-color: transparent;
+}
+
+.card-about-me{
+    width: 880px;
+    height: 300px;
+}
+
+.card-about-me-1{
+    width: 340px;
+    height: 300px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.card-about-me-2{
+    width: 340px;
+    height: 300px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+/*professional-experiences ------------------------------------*/
+
+.professional-experiences{
+    padding-top: 100px;
+}
+
+.experiences_general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.experiences{
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(192, 146, 100);
+}
+
+/*education ------------------------------------*/
+
+.educations{
+    width: 620px;
+    height: 130px;
+}
+
+.institution{
+    width: 120px;
+    height: 130px;
+}
+
+.description-institution{
+    width: 500px;
+    height: 130px;
+}
+
+}
+
+/* Dispositivos médios (tablets, de 768px até 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Estilos aqui */
+}
+
+/* Dispositivos grandes (desktops, de 992px até 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Estilos aqui */
+}
+
+/* Dispositivos extra grandes (desktops grandes, 1200px ou mais) */
+@media (min-width: 1200px) {
+  /* Estilos aqui */
+}
