@@ -213,6 +213,11 @@
 }
 
 .work_information{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     width: 400px;
     height: 90px;
     border-radius: 10px;
@@ -220,11 +225,15 @@
 }
 
 .work_information > h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .work_information > h3 {
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.work_information > p {
+    font-size: 13px;
 }
 
 .description_work{
@@ -232,6 +241,26 @@
     height: 250px;
     border-radius: 0px 0px 20px 20px;
     background-color: rgb(124, 77, 30);
+}
+
+.description_work-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(184, 127, 71);
+}
+
+.description_work-1 > p{
+    width: 560px;
+    font-size: 15px;
+}
+
+.subtitle_description_work{
+    padding-top: 10px;
 }
 
 /*education ------------------------------------*/

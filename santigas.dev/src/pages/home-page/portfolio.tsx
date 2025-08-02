@@ -61,14 +61,22 @@ function portfolio() {
 
                             </div>
                             <div className='work_information'>
-                                <h2>IDEALLE SISTEMAS</h2>
-                                <h3>Tempo de serviço: de 02/02/2003</h3>
+                                <h2>Idealle Sistemas</h2>
+                                <h3>Desenvolvedor júnior III</h3>
+                                <p>2024-11 - PRESENTE | ARACAJU, SERGIPE, BRASIL </p>
                             </div>
                         </div>
                         <div className='description_work'>
+                            <div className='description_work-1'>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quos, officiis odit nisi nihil minus illo! 
+                                Accusamus blanditiis ducimus omnis nesciunt labore modi iste velit odit eligendi ipsa. Doloribus, hic! Lorem ipsum 
+                                dolor, sit amet consectetur adipisicing elit. Quasi nesciunt aspernatur libero, corrupti temporibus asperiores quidem assumenda alias porro harum</p>
+                            </div>
+                            <p className='subtitle_description_work'>Tecnologias utlizadas:</p>
 
                         </div>
                     </div>
+
                     <div className='experiences'>
                         <div className='work_enterprise'>
                             <div className='work_logo'>
@@ -82,6 +90,7 @@ function portfolio() {
 
                         </div>
                     </div>
+                    
                     <div className='experiences'>
                         <div className='work_enterprise'>
                             <div className='work_logo'>
